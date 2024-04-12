@@ -309,6 +309,10 @@ main {
 footer {
   display: flex;
   flex-direction: column;
-  padding: 20px;
-  align-items: end;
+  padding: 32px 24px 48px 24px;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
 }
