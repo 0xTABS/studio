@@ -20,6 +20,9 @@ a {
   color: inherit
 }
 
+.link-block {
+}
+
 input,button,textarea,select {
 	background: none;
 	color: inherit;
@@ -68,6 +71,16 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 21px;
+  font-weight: 600;
+}
+
 .caption {
   font-size: 14px;
 }
@@ -110,14 +123,32 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 24px;
   max-width: 400px;
-  gap: 32px;
   width: 100%;
 }
 
 .tab.full-border {
   border-radius: 32px;
+}
+
+.tab.black {
+  border-radius: none;
+  background-color: black;
+  color: white;
+  padding: 48px 48px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 32px 24px;
+  align-items: center;
+  gap: 32px;
+}
+
+.container.small {
+  padding: 32px 12px;
 }
 
 ,title {
@@ -172,6 +203,24 @@ main {
   padding: 24px;
 }
 
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 32px 24px;
+  background-color: white;
+  border-radius: 32px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
 .top {
   display: flex;
   justify-content: space-between;
@@ -217,12 +266,22 @@ main {
   font-size: 14px;
 }
 
-.buttons-container {
+.pill.circle {
+  height: 32px;
+  width: 32px;
+  padding: none;
+}
+
+.btn-container {
   display: flex;
   flex-direction: column;
   width: 100%;
   gap: 8px;
   text-align: center;
+}
+
+.btn-container.extra-padding {
+  padding: 0px 8px;
 }
 
 .btn {
@@ -234,6 +293,7 @@ main {
   color: white;
   border-radius: 100px;
   font-weight: 500;
+  width: 100%;
 }
 
 .btn.reversed {
@@ -241,50 +301,9 @@ main {
   color: black;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
 .div {
   display: flex;
   gap: 4px;
-}
-
-.nav-link-container {
-  display: flex;
-  gap: 8px;
-}
-
-.nav-link:hover {
-  color: var(--black-40);
-}
-
-.coming-soon:hover {
-  color: var(--black-40);
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.main-img {
-  width: 380px;
-  max-width: 60%;
-}
-
-.text-40 {
-  color: var(--black-40);
-}
-
-@media only screen and (min-width: 800px) {
-  .text-40:hover {
-    color: var(--white-90);
-  }
 }
 
 footer {

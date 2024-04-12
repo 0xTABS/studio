@@ -1,0 +1,58 @@
+    <div class="tab full-border">
+      <div class="container small">
+        <div class="title">
+          <h2>How it works</h2>
+        </div>
+          <div class="card-container">
+            <div class="inner-container">
+              <div class="card review">
+                <div class="top">
+                  <h4>Subscribe</h4>
+                </div>
+                <div>
+                  <p class="opacity-60">You can subscribe here on our website.</p>
+                </div>
+              </div>
+              <div class="card review">
+                <div class="top">
+                  <h4>Join Discord</h4>
+                </div>
+                <div>
+                  <p class="opacity-60">You'll be invited to your own private Discord server where you’ll meet your designer.</p>
+                </div>
+              </div>
+              <div class="card review">
+                <div class="top">
+                  <h4>Submit request</h4>
+                </div>
+                <div>
+                  <p class="opacity-60">With tabs, there's no waiting around. You can start making your design requests on the same day you subscribe.</p>
+                </div>
+              </div>
+              <div class="card review">
+                <div class="top">
+                  <h4>Receive design</h4>
+                </div>
+                <div>
+                  <p class="opacity-60">Our expert design team will work tirelessly to bring your vision to life. With our 48-hour delivery guarantee, you'll receive your completed designs promptly.</p>
+                </div>
+              </div>
+              <div class="card review">
+                <div class="top">
+                  <h4>Feedback and revisions</h4>
+                </div>
+                <div>
+                  <p class="opacity-60">Your satisfaction is our top priority. If you have any feedback or require revisions, simply let us know. We'll revise your designs until they're perfect, ensuring you're thrilled with the final result.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="btn-container extra-padding">
+          <a href="https://cal.com/0xtabs/15min">
+            <button class="btn reversed">Schedule Intro</button>
+          </a>
+          <button class="btn">Subscribe</button>
+          <p class="caption opacity-60">Pause or cancel anytime</p>
+        </div>
+      </div>
+    </div>
