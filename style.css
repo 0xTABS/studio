@@ -1,0 +1,104 @@
+:root {
+  --white-90: rgba(255, 255, 255, 0.9);
+  --black-40: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,ol {
+  list-style: none
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+input,button,textarea,select {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+@font-face {
+  font-family: Roboto Mono;
+  src: url(fonts/RobotoMono-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: black;
+  color: var(--white-90);
+  font-family: Roboto Mono;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+main {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.div {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-link-container {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link:hover {
+  color: var(--black-40);
+}
+
+.coming-soon:hover {
+  color: var(--black-40);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-img {
+  width: 380px;
+  max-width: 60%;
+}
+
+.text-40 {
+  color: var(--black-40);
+}
+
+@media only screen and (min-width: 800px) {
+  .text-40:hover {
+    color: var(--white-90);
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: end;
+}
