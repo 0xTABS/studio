@@ -1,8 +1,6 @@
 :root {
   --white-90: rgba(255, 255, 255, 0.9);
-  --black-40: #666666;
-  --black: black;
-  --white: white;
+  --black-40: #969696;
 }
 
 * {
@@ -20,9 +18,6 @@ a {
   color: inherit
 }
 
-.link-block {
-}
-
 input,button,textarea,select {
 	background: none;
 	color: inherit;
@@ -33,219 +28,132 @@ input,button,textarea,select {
 	outline: inherit;
 }
 
-@font-face {
-  font-family: Inter;
-  src: url(fonts/Inter-Regular.ttf);
-  font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(fonts/Inter-Medium.ttf);
-  font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(fonts/Inter-SemiBold.ttf);
-  font-style: normal;
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(fonts/Inter-Bold.ttf);
-  font-style: normal;
-  font-weight: 700;
-}
-
 h1 {
-  font-size: 27px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  
 }
 
-h2 {
-  font-size: 17px;
-  font-weight: 600;
-}
-
-h3 {
-  font-size: 21px;
-  font-weight: 500;
-}
-
-h4 {
-  font-size: 21px;
-  font-weight: 600;
-}
-
-.caption {
-  font-size: 14px;
+.opacity-40 {
+  color: var(--black-40);
 }
 
 .opacity-60 {
   opacity: 0.6;
 }
 
-.semi-bold {
-  font-weight: 600;
+.no-caps {
+  text-transform: none;
 }
 
-.review-name {
-  font-weight: 500;
+.underline {
+  text-decoration: underline;
 }
 
-.align-self {
-  align-self: center;
+.link {
+
 }
 
-body {
-  background-color: white;
-  color: black;
-  font-family: Inter;
+.link:hover {
+  opacity: 0.4;
+}
+
+.link-reversed {
+  opacity: 0.4;
+}
+
+.link-reversed:hover {
+  opacity: 1;
+}
+
+.instagram:hover {
+  color: #C13584;
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
+
+.discord:hover {
+  color: #5865F2;
+}
+
+@font-face {
+  font-family: Roboto Mono;
+  src: url(fonts/RobotoMono-Regular.ttf);
+  font-style: normal;
   font-weight: 400;
-  font-size: 17px;
 }
 
 main {
   background-color: black;
   display: flex;
   flex-direction: column;
+  gap: 4px;
+}
+
+body {
+  background-color: #fafafa;
+  color: black;
+  font-family: Roboto Mono;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.div {
+  display: flex;
+  gap: 0;
+}
+
+.nav-link-container {
+  display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.tab {
-  background-color: #F7F7F7;
-  border-radius: 0px 0px 32px 32px;
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #29fd2e;
+  border-radius: 100%;
+}
+
+section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  max-width: 400px;
-  width: 100%;
-}
-
-.tab.full-border {
-  border-radius: 32px;
-}
-
-.tab.black {
-  border-radius: none;
-  background-color: black;
-  color: white;
-  padding: 48px 48px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  padding: 32px 24px;
-  align-items: center;
+  padding: 20px;
   gap: 32px;
+  border-radius: 8px;
+  background-color: #fafafa;
 }
 
-.container.small {
-  padding: 32px 12px;
+.first {
+  border-radius: 0px 0px 8px 8px;
 }
 
-,title {
-
+.last {
+  border-radius: 8px 8px 0px 0px;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  text-align: center;
-}
-
-.card-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
-
-}
-
-.inner-container {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  border-radius: 32px;
-  background-color: white;
-  gap: 8px;
-}
-
-.inner-container.card {
-  display: flex;
-  flex-direction: column;
-  padding: 8px;
-  border-radius: 32px;
-  background-color: white;
-  gap: 8px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 32px;
-  background-color: white;
-  padding: 24px;
-  gap: 20px;
-}
-
-.card.review {
-  background-color: #eeeeee;
-  border-radius: 24px;
-  padding: 24px;
-}
-
-.steps-container {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-  padding: 32px 24px;
-  background-color: white;
-  border-radius: 32px;
-}
-
-.step {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  gap: 16px;
-}
-
-.top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  justify-items: center;
+  gap: 12px;
+  max-width: 280px;
 }
 
 .top-left {
   display: flex;
   gap: 8px;
-}
-
-.avatar {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  border-radius: 100%;
-  height: 44px;
-  width: 44px;
-  overflow: hidden;
-}
-
-.img {
-  object-fit: cover;
 }
 
 .pill {
@@ -253,66 +161,58 @@ main {
   justify-content: center;
   text-align: center;
   align-items: center;
-  padding: 4px 12px;
+  padding: 0px 12px;
+  height: 32px;
   border-radius: 24px;
   border: 1px solid black;
+  text-transform: none;
 }
 
-.pill.filled {
-  background-color: #e1e1e1;
-  color: #727272;
-  border: none;
-  font-weight: 400;
-  font-size: 14px;
+.work {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.pill.circle {
-  height: 32px;
+.preview-container {
+  display: flex;
+  gap: 4px;
+}
+
+.star-container {
+  display: flex;
+  gap: 0;
+}
+
+.img-preview {
   width: 32px;
-  padding: none;
+  height: 32px;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .btn-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  gap: 8px;
-  text-align: center;
-}
-
-.btn-container.extra-padding {
-  padding: 0px 8px;
+  gap: 12px;
 }
 
 .btn {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 54px;
-  background-color: black;
   color: white;
-  border-radius: 100px;
-  font-weight: 500;
-  width: 100%;
-}
-
-.btn.reversed {
-  background-color: #DDDDDD;
-  color: black;
-}
-
-.div {
-  display: flex;
-  gap: 4px;
+  background-color: black;
+  height: 52px;
+  padding: 0px 32px;
+  text-transform: uppercase;
+  max-width: fit-content;
 }
 
 footer {
   display: flex;
   flex-direction: column;
-  padding: 32px 24px 48px 24px;
-  gap: 8px;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  color: white;
+  padding: 20px;
+  align-items: end;
 }
