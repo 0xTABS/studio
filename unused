@@ -575,3 +575,14 @@ footer {
   justify-content: center;
   color: white;
 }
+
+<div class="btn-container">
+  <div class="star-container">
+    <img src="media/star.svg" alt="">
+    <img src="media/star.svg" alt="">
+    <img src="media/star.svg" alt="">
+    <img src="media/star.svg" alt="">
+    <img src="media/star.svg" alt="">
+  </div>
+  <p>Rated 5/5 <span class="opacity-40">(4)</span></p>
+</div>
