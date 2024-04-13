@@ -78,9 +78,20 @@ h1 {
   color: #5865F2;
 }
 
+.inter {
+  font-family: Inter;
+}
+
 @font-face {
   font-family: Roboto Mono;
   src: url(fonts/RobotoMono-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Regular.ttf);
   font-style: normal;
   font-weight: 400;
 }
@@ -145,11 +156,18 @@ main {
   gap: 8px;
 }
 
-.dot {
+.blink {
   width: 10px;
   height: 10px;
   background-color: #29fd2e;
   border-radius: 100%;
+  animation: blink 4s linear infinite;
+}
+
+@keyframes blink {
+  
+  0% {opacity: 1;}
+  100% {opacity: 0.2;}
 }
 
 section {
@@ -252,6 +270,7 @@ section {
   padding: 0px 32px;
   text-transform: uppercase;
   max-width: fit-content;
+  border-radius: 4px;
 }
 
 footer {
