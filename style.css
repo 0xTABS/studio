@@ -85,13 +85,6 @@ h1 {
   font-weight: 400;
 }
 
-main {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
 body {
   background-color: #fafafa;
   color: black;
@@ -99,6 +92,9 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #header {
@@ -106,6 +102,36 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  width: 100%;
+}
+
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.exit-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  position: fixed;
+  bottom: 32px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgb(68, 68, 68, 0.75);
+  border-radius: 100%;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.exit-btn:hover {
+  background-color: rgb(90, 90, 90, 0.75);
 }
 
 .div {
@@ -133,6 +159,7 @@ section {
   gap: 32px;
   border-radius: 8px;
   background-color: #fafafa;
+  align-items: baseline;
 }
 
 .first {
@@ -141,6 +168,21 @@ section {
 
 .last {
   border-radius: 8px 8px 0px 0px;
+}
+
+.work-section {
+  border-radius: 0;
+  padding: 4px;
+}
+
+.work-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.work-img {
+  width: 100%;
 }
 
 .intro {
@@ -173,6 +215,8 @@ section {
   flex-direction: column;
   gap: 12px;
 }
+
+.work
 
 .preview-container {
   display: flex;
@@ -212,7 +256,8 @@ section {
 
 footer {
   display: flex;
-  flex-direction: column;
   padding: 20px;
   align-items: end;
+  justify-content: space-between;
+  width: 100%;
 }
