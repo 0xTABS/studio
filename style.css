@@ -109,10 +109,12 @@ body {
 }
 
 #header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   background-color: black;
   width: 100%;
   padding-bottom: 4px;
-  padding-top: 4px;
 }
 
 .tab {
@@ -123,6 +125,14 @@ body {
   width: 100%;
   align-items: center;
   border-radius: 8px;
+}
+
+.top-tab {
+  background-color: #fafafa;
+  width: 100%;
+  align-items: center;
+  border-radius: 0px 0px 8px 8px;
+  height: 4px;
 }
 
 main {
