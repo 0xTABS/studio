@@ -109,11 +109,20 @@ body {
 }
 
 #header {
+  background-color: black;
+  width: 100%;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.tab {
+  background-color: #fafafa;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px;
   width: 100%;
+  align-items: center;
+  border-radius: 8px;
 }
 
 main {
@@ -181,7 +190,7 @@ section {
 }
 
 .first {
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
 }
 
 .last {
