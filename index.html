@@ -10,7 +10,7 @@
   <script defer data-domain="tabs.ooo" src="https://plausible.io/js/script.js"></script>
   <script defer data-domain="tabs.studio" src="https://plausible.io/js/script.js"></script>
 </head>
-<body>
+<body onload="startTime()">
   <div class="top-border"></div>
   <header id="header">
     <div class="top-tab">
@@ -23,8 +23,7 @@
         <a href="index.html" class="link-reversed">.studio</a>
       </div>
       <div class="nav-link-container">
-        <div class="blink"></div>
-        <p>2 spots open</p>
+        <div id="txt"></div>
       </div>
     </div>
   </header>
@@ -61,6 +60,10 @@
     </section>
     <section class="last">
       <h1>Packages</h1>
+      <div class="nav-link-container">
+        <div class="blink"></div>
+        <p>2 spots open</p>
+      </div>
       <div class="top-left">
         <div class="pill"><p>Monthly</p></div>
         <p class="no-caps">$1K/mo</p>
@@ -75,5 +78,22 @@
       <a href="https://twitter.com/0xtabs" class="link-reversed discord">Discord</a>
     </div>
   </footer>
+  <script>
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + " CEST";
+      setTimeout(startTime, 1000);
+    }
+    
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+    </script>
 </body>
 </html>
