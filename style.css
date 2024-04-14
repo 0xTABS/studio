@@ -40,7 +40,7 @@ h2 {
 }
 
 .opacity-40 {
-  color: var(--black-40);
+  opacity: 0.4;;
 }
 
 .opacity-60 {
@@ -138,6 +138,17 @@ body {
   width: 100%;
   align-items: center;
   border-radius: 8px;
+  overflow: hidden;
+}
+
+.tab.small-padding {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 4px 4px 4px;
+  width: 100%;
+  align-items: center;
+  border-radius: 8px;
 }
 
 .tab.blue {
@@ -168,6 +179,13 @@ main {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.top.with-padding {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 16px;
 }
 
 .exit-btn {
@@ -270,7 +288,19 @@ section {
   padding: 0px 12px;
   height: 32px;
   border-radius: 24px;
-  border: 1px solid black;
+  border: 1px solid rgb(255, 255, 255);
+  text-transform: none;
+}
+
+.pill-custom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0px 12px;
+  height: 32px;
+  border-radius: 24px;
+  border: 1px solid rgb(0, 0, 0);
   text-transform: none;
 }
 
@@ -319,18 +349,51 @@ section {
   border-radius: 4px;
 }
 
+.btn-inversed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  background-color: black;
+  height: 52px;
+  padding: 0px 32px;
+  text-transform: uppercase;
+  max-width: fit-content;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
 .btn:hover {
   background-color: red;
 }
 
-.package {
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border: 1px solid rgb(206, 206, 206);
   padding: 20px;
   gap: 20px;
-  border-radius: 4px;
+  border-radius: 8px;
+  background-color: black;
+  color: #fafafa;
+}
+
+.card-custom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 8px;
+  background-color: #aaaaaa;
+  color: rgb(255, 255, 255);
 }
 
 .container {
@@ -352,7 +415,7 @@ section {
   gap: var(--gap);
   align-items: center;
 
-  animation: scroll 20s linear infinite;
+  animation: scroll 30s linear infinite;
 }
 
 @keyframes scroll {
@@ -362,9 +425,12 @@ section {
 }
 
 footer {
+  padding-top: 2px;
   display: flex;
-  padding: 20px;
   align-items: end;
   justify-content: space-between;
   width: 100%;
+  background-color: black;
+  padding: 20px;
+  color: white;
 }
