@@ -29,8 +29,9 @@ input,button,textarea,select {
 }
 
 h1 {
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
+  line-height: 100%;
 }
 
 h2 {
@@ -137,6 +138,11 @@ body {
   width: 100%;
   align-items: center;
   border-radius: 8px;
+}
+
+.tab.blue {
+  background-color: blue;
+  color: white;
 }
 
 @media only screen and (min-width: 992px) {
@@ -246,7 +252,7 @@ section {
 .intro {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 20px;
   max-width: 280px;
 }
 
@@ -314,7 +320,7 @@ section {
 }
 
 .btn:hover {
-  background-color: blue;
+  background-color: red;
 }
 
 .package {
@@ -325,6 +331,34 @@ section {
   padding: 20px;
   gap: 20px;
   border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  user-select: none;
+  overflow: hidden;
+
+  --gap: 40px;
+  display: flex;
+  gap: var(--gap);
+}
+
+.container ul {
+  display: flex;
+  flex-shrink: 0;
+  min-width: 100%;
+  justify-content: space-between;
+  gap: var(--gap);
+  align-items: center;
+
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-100% - var(--gap)));
+  }
 }
 
 footer {
