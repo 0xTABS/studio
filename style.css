@@ -338,10 +338,10 @@ section {
   width: 100%;
 }
 
-.flex-column-200 {
+.flex-column-big {
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  gap: 100px;
 }
 
 .flex-column-20 {
