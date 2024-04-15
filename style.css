@@ -56,7 +56,7 @@ h2 {
 }
 
 .link {
-
+  text-decoration: underline;
 }
 
 .link:hover {
@@ -130,15 +130,70 @@ body {
   padding-bottom: 2px;
 }
 
+.background {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
 .tab {
   background-color: #fafafa;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
   padding: 20px;
   width: 100%;
-  align-items: center;
   border-radius: 8px;
   overflow: hidden;
+}
+
+.first-tab {
+  background-color: #fafafa;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  overflow: hidden;
+  height: 8px;
+}
+
+.last-tab {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  width: 100%;
+  border-radius: 8px 8px 0px 0px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.top-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.swiper {
+  width: 100%;
+  margin: 0 -100px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  width: 100px;
+  gap: 4px;
+}
+
+.swiper-slide {
+  width: 100%;
+}
+
+.swiper-img {
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .tab.small-padding {
@@ -275,11 +330,22 @@ section {
   width: 100%;
 }
 
-.intro {
+.flex-column-200 {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.flex-column-20 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 450px;
+}
+
+.flex-column-12 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .top-left {
@@ -328,13 +394,6 @@ section {
 .star-container {
   display: flex;
   gap: 0;
-}
-
-.img-preview {
-  width: 32px;
-  height: 32px;
-  overflow: hidden;
-  object-fit: cover;
 }
 
 .btn-container {

@@ -7,138 +7,80 @@
   <meta name="description" content="creating digital stuff">
   <link rel="stylesheet" href="style.css">
   <link rel="preload" href="/fonts/RobotoMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
-  <script defer data-domain="tabs.ooo" src="https://plausible.io/js/script.js"></script>
   <script defer data-domain="tabs.studio" src="https://plausible.io/js/script.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body onload="startTime()">
-  <header id="header">
-    <div class="top-tab">
-
-    </div>
+  <div class="background">
+    <div class="first-tab"></div>
     <div class="tab">
-      <div class="div">
-        <a href="https://tabs.ooo">tabs
-        </a>
-        <a href="index.html" class="link-reversed">.studio</a>
-      </div>
-      <div class="nav-link-container">
+      <div class="top-2">
+        <p>tabs.studio</p>
         <div id="txt"></div>
       </div>
     </div>
-  </header>
-  <main>
-    <section class="first">
-      <div class="intro">
-        <h1>World-class design subscription [FOR founders]</h1>
-        <p class="no-caps opacity-60">Quit wasting time trying to hire unreliable designers and embrace a new way to fulfill your design needs.</p>
-      </div>
-      <div class="work">
-        <a href="/work.html">
-          <div class="preview-container">
-            <img src="media/2.webp" alt="" class="img-preview">
-            <img src="media/west-2.webp" alt="" class="img-preview">
-            <img src="media/west-3.webp" alt="" class="img-preview">
-            <img src="media/west-4.webp" alt="" class="img-preview">
-            <img src="media/more-based.png" alt="" class="img-preview">
-          </div>
-        </a>
-        <div>
-          <a href="work.html">
-            <p class="underline link">View Work</p>
+    <div class="tab">
+      <div class="flex-column-200">
+        <h1><span class="opacity-40">World-class</span> design subscription [FOR founders]</h1>
+        <div class="flex-column-20">
+          <p>Quit wasting time trying to hire unreliable designers and embrace a new way to fulfill your design needs.</p>
+          <a href="https://billing.tabs.studio/b/eVa6ot6Rp3VpcJafYY">
+            <button class="btn">Subscribe</button>
+          </a>
+          <a href="https://cal.com/0xtabs/15min?date=2024-04-15&month=2024-04">
+            <p class="underline link">Or schedule intro</p>
           </a>
         </div>
       </div>
-      <div class="btn-container">
-        <a href="https://billing.tabs.studio/b/eVa6ot6Rp3VpcJafYY">
-          <button class="btn">Subscribe</button>
-        </a>
-        <a href="https://cal.com/0xtabs/15min?date=2024-04-15&month=2024-04">
-          <p class="underline link">Or schedule intro</p>
-        </a>
+    </div>
+    <div class="tab">
+      <div class="top-2">
+        <h2>Recent work</h2>
+        <a href="/work.html" class="link">Fullscreen</a>
       </div>
-    </section>
-    <section class="tab blue">
-      <div class="container">
-        <ul aria-hidden="true">
-          <li><p>Unlimited design</p></li>
-          <li><p>Unlimited revisions</p></li>
-          <li><p>5 days a week</p></li>
-          <li><p>48 hours delivery</p></li>
-          <li><p>One request at a time</p></li>
-          <li><p>Dedicated Trello Board</p></li>
-        </ul>
-        <ul aria-hidden="true">
-          <li><p>Unlimited design</p></li>
-          <li><p>Unlimited revisions</p></li>
-          <li><p>5 days a week</p></li>
-          <li><p>48 hours delivery</p></li>
-          <li><p>One request at a time</p></li>
-          <li><p>Dedicated Trello Board</p></li>
-        </ul>
-      </div>
-    </section>
-    <section class="tab small-padding">
-      <div class="top with-padding">
-        <h2>Packages</h1>
-        <div class="nav-link-container">
-          <div class="blink"></div>
-          <p>2 spots open</p>
-        </div>
-      </div>
-      <div class="card-container">
-        <div class="card">
-          <div class="top-left">
-            <div class="pill"><p>Monthly</p></div>
-            <p class="no-caps">$2K/mo</p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="media/previews/Frame 675.png" alt="" class="swiper-img">
           </div>
-          <p class="no-caps opacity-60">Immediate support from a senior designer and design lead with over 20 years experience. Perfect for an ongoing need for design and a desire to grow.</p>
-          <div class="btn-container">
-            <a href="https://billing.tabs.studio/b/eVa6ot6Rp3VpcJafYY">
-              <button class="btn-inversed">Subscribe</button>
-            </a>
-            <p class="opacity-60 caption no-caps">Pause or cancel at anytime</p>
+          <div class="swiper-slide">
+            <img src="media/previews/Frame 676.png" alt="" class="swiper-img">
           </div>
-        </div>
-        <div class="card">
-          <div class="top-left">
-            <div class="pill"><p>Costum</p></div>
+          <div class="swiper-slide">
+            <img src="media/previews/Frame 677.png" alt="" class="swiper-img">
           </div>
-          <p class="no-caps opacity-60">If your project doesn't fit into the monthly plan or you want to work with set milestones and deliverables we can work something out.</p>
-          <div class="btn-container">
-            <a href="https://cal.com/0xtabs/15min?date=2024-04-15&month=2024-04">
-              <p class="underline link">Schedule intro</p>
-            </a>
+          <div class="swiper-slide">
+            <img src="media/previews/Frame 678.png" alt="" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/2.webp" alt="" class="swiper-img">
+          </div>
+          <div class="swiper-slide">
+            <img src="media/olga.png" alt="" class="swiper-img">
           </div>
         </div>
       </div>
-    </section>
-  </main>
+    </div>
   <footer>
-    <div class="tab last">
+    <div class="last-tab">
       <p class="opacity-40"><span class="inter">©</span>2024</p>
       <div>
-        <a href="https://twitter.com/0xtabs" class="link-reversed instagram">Instagram</a>
-        <a href="https://twitter.com/0xtabs" class="link-reversed twitter">Twitter</a>
-        <a href="https://twitter.com/0xtabs" class="link-reversed discord">Discord</a>
+        <a href="/index.html" class="link-reversed twitter">Back to top</a>
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>
-    function startTime() {
-      const today = new Date();
-      let h = today.getHours(); 
-      let m = today.getMinutes();
-      let s = today.getSeconds();
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s + " CEST";
-      setTimeout(startTime, 1000);
-    }
-    
-    function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-      return i;
-    }
-    </script>
+      const swiper = new Swiper('.swiper', {
+          direction: 'horizontal',
+          slidesPerView: 3.5,
+          loop: true,
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+          },
+      });
+  </script>
+  <script src="script.js"></script>
 </body>
 </html>

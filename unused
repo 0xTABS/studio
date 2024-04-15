@@ -586,3 +586,94 @@ footer {
   </div>
   <p>Rated 5/5 <span class="opacity-40">(4)</span></p>
 </div>
+
+
+//
+
+<main>
+  <section class="first">
+    <div class="intro">
+      <h1>World-class design subscription [FOR founders]</h1>
+      <p class="no-caps opacity-60">Quit wasting time trying to hire unreliable designers and embrace a new way to fulfill your design needs.</p>
+    </div>
+    <div class="work">
+      <a href="/work.html">
+        <div class="preview-container">
+          <img src="media/2.webp" alt="" class="img-preview">
+          <img src="media/west-2.webp" alt="" class="img-preview">
+          <img src="media/west-3.webp" alt="" class="img-preview">
+          <img src="media/west-4.webp" alt="" class="img-preview">
+          <img src="media/more-based.png" alt="" class="img-preview">
+        </div>
+      </a>
+      <div>
+        <a href="work.html">
+          <p class="underline link">View Work</p>
+        </a>
+      </div>
+    </div>
+    <div class="btn-container">
+      <a href="https://billing.tabs.studio/b/eVa6ot6Rp3VpcJafYY">
+        <button class="btn">Subscribe</button>
+      </a>
+      <a href="https://cal.com/0xtabs/15min?date=2024-04-15&month=2024-04">
+        <p class="underline link">Or schedule intro</p>
+      </a>
+    </div>
+  </section>
+  <section class="tab blue">
+    <div class="container">
+      <ul aria-hidden="true">
+        <li><p>Unlimited design</p></li>
+        <li><p>Unlimited revisions</p></li>
+        <li><p>5 days a week</p></li>
+        <li><p>48 hours delivery</p></li>
+        <li><p>One request at a time</p></li>
+        <li><p>Dedicated Trello Board</p></li>
+      </ul>
+      <ul aria-hidden="true">
+        <li><p>Unlimited design</p></li>
+        <li><p>Unlimited revisions</p></li>
+        <li><p>5 days a week</p></li>
+        <li><p>48 hours delivery</p></li>
+        <li><p>One request at a time</p></li>
+        <li><p>Dedicated Trello Board</p></li>
+      </ul>
+    </div>
+  </section>
+  <section class="tab small-padding">
+    <div class="top with-padding">
+      <h2>Packages</h1>
+      <div class="nav-link-container">
+        <div class="blink"></div>
+        <p>2 spots open</p>
+      </div>
+    </div>
+    <div class="card-container">
+      <div class="card">
+        <div class="top-left">
+          <div class="pill"><p>Monthly</p></div>
+          <p class="no-caps">$2K/mo</p>
+        </div>
+        <p class="no-caps opacity-60">Immediate support from a senior designer and design lead with over 20 years experience. Perfect for an ongoing need for design and a desire to grow.</p>
+        <div class="btn-container">
+          <a href="https://billing.tabs.studio/b/eVa6ot6Rp3VpcJafYY">
+            <button class="btn-inversed">Subscribe</button>
+          </a>
+          <p class="opacity-60 caption no-caps">Pause or cancel at anytime</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="top-left">
+          <div class="pill"><p>Costum</p></div>
+        </div>
+        <p class="no-caps opacity-60">If your project doesn't fit into the monthly plan or you want to work with set milestones and deliverables we can work something out.</p>
+        <div class="btn-container">
+          <a href="https://cal.com/0xtabs/15min?date=2024-04-15&month=2024-04">
+            <p class="underline link">Schedule intro</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
