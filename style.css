@@ -171,6 +171,19 @@ body {
   padding: 20px;
 }
 
+.lottie {
+  overflow: hidden;
+  object-fit: cover;
+  height: 100px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .top-2 {
   display: flex;
   justify-content: space-between;
@@ -283,9 +296,9 @@ main {
 .blink {
   width: 10px;
   height: 10px;
-  background-color: #29fd2e;
+  background-color: orange;
   border-radius: 100%;
-  animation: blink 4s linear infinite;
+  animation: blink 3s linear infinite;
 }
 
 @keyframes blink {
@@ -461,7 +474,6 @@ section {
   display: flex;
   flex-shrink: 0;
   min-width: 100%;
-  justify-content: space-between;
   gap: var(--gap);
   align-items: center;
 
