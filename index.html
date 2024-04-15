@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preload" href="/fonts/RobotoMono-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <script defer data-domain="tabs.studio" src="https://plausible.io/js/script.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body onload="startTime()">
   <div class="background">
@@ -33,33 +32,29 @@
         </div>
       </div>
     </div>
-    <div class="tab">
-      <div class="top-2">
+    <div class="tab no-padding">
+      <div class="top-2 padding-20">
         <h2>Recent work</h2>
         <a href="/work.html" class="link">Fullscreen</a>
       </div>
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="media/previews/Frame 675.png" alt="" class="swiper-img">
-          </div>
-          <div class="swiper-slide">
-            <img src="media/previews/Frame 676.png" alt="" class="swiper-img">
-          </div>
-          <div class="swiper-slide">
-            <img src="media/previews/Frame 677.png" alt="" class="swiper-img">
-          </div>
-          <div class="swiper-slide">
-            <img src="media/previews/Frame 678.png" alt="" class="swiper-img">
-          </div>
-          <div class="swiper-slide">
-            <img src="media/2.webp" alt="" class="swiper-img">
-          </div>
-          <div class="swiper-slide">
-            <img src="media/olga.png" alt="" class="swiper-img">
-          </div>
+      <a href="/work.html">
+        <div class="carusel">
+          <ul aria-hidden="true">
+            <li><img src="media/previews/Frame 675.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 676.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 677.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 678.png" alt="" class="carusel-img"></li>
+            <li><img src="media/2.webp" alt="" class="carusel-img"></li>
+          </ul>
+          <ul aria-hidden="true">
+            <li><img src="media/previews/Frame 675.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 676.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 677.png" alt="" class="carusel-img"></li>
+            <li><img src="media/previews/Frame 678.png" alt="" class="carusel-img"></li>
+            <li><img src="media/2.webp" alt="" class="carusel-img"></li>
+          </ul>
         </div>
-      </div>
+      </a>
     </div>
     <div class="last-tab">
       <p class="opacity-40"><span class="inter">©</span>2024</p>
@@ -67,18 +62,6 @@
         <a href="/index.html" class="link-reversed twitter">Back to top</a>
       </div>
     </div>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-      const swiper = new Swiper('.swiper', {
-          direction: 'horizontal',
-          slidesPerView: 3.5,
-          loop: true,
-          pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-          },
-      });
-  </script>
   <script src="script.js"></script>
 </body>
 </html>

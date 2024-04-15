@@ -677,3 +677,27 @@ footer {
     </div>
   </section>
 </main>
+
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="media/previews/Frame 675.png" alt="" class="swiper-img">
+    </div>
+    <div class="swiper-slide">
+      <img src="media/previews/Frame 676.png" alt="" class="swiper-img">
+    </div>
+    <div class="swiper-slide">
+      <img src="media/previews/Frame 677.png" alt="" class="swiper-img">
+    </div>
+    <div class="swiper-slide">
+      <img src="media/previews/Frame 678.png" alt="" class="swiper-img">
+    </div>
+    <div class="swiper-slide">
+      <img src="media/2.webp" alt="" class="swiper-img">
+    </div>
+    <div class="swiper-slide">
+      <img src="media/olga.png" alt="" class="swiper-img">
+    </div>
+  </div>
+</div>

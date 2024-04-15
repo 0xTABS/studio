@@ -149,6 +149,10 @@ body {
   overflow: hidden;
 }
 
+.tab.no-padding {
+  padding: 20px 0px;
+}
+
 .first-tab {
   background-color: #fafafa;
   width: 100%;
@@ -173,6 +177,10 @@ body {
   width: 100%;
 }
 
+.padding-20 {
+  padding: 0px 20px;
+}
+
 .swiper {
   width: 100%;
   margin: 0 -100px;
@@ -188,8 +196,8 @@ body {
   width: 100%;
 }
 
-.swiper-img {
-  width: 100%;
+.carusel-img {
+  width: 100px;
   aspect-ratio: 1;
   overflow: hidden;
   object-fit: cover;
@@ -468,18 +476,18 @@ section {
   color: rgb(255, 255, 255);
 }
 
-.container {
+.carusel {
   display: flex;
-  gap: 20px;
+  gap: 4px;
   user-select: none;
   overflow: hidden;
 
-  --gap: 40px;
+  --gap: 4px;
   display: flex;
   gap: var(--gap);
 }
 
-.container ul {
+.carusel ul {
   display: flex;
   flex-shrink: 0;
   min-width: 100%;
