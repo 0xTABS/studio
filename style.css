@@ -355,6 +355,20 @@ section {
   gap: 4px;
 }
 
+.grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 .bullet-points {
   display: flex;
   flex-direction: column;
