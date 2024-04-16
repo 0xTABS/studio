@@ -461,7 +461,6 @@ section {
 
 .carusel {
   display: flex;
-  gap: 4px;
   user-select: none;
   overflow: hidden;
 
@@ -471,6 +470,26 @@ section {
 }
 
 .carusel ul {
+  display: flex;
+  flex-shrink: 0;
+  min-width: 100%;
+  gap: var(--gap);
+  align-items: center;
+
+  animation: scroll 30s linear infinite;
+}
+
+.carusel-2 {
+  display: flex;
+  user-select: none;
+  overflow: hidden;
+
+  --gap: 40px;
+  display: flex;
+  gap: var(--gap);
+}
+
+.carusel-2 ul {
   display: flex;
   flex-shrink: 0;
   min-width: 100%;
