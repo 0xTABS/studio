@@ -701,3 +701,122 @@ footer {
     </div>
   </div>
 </div>
+
+
+FAQ
+
+<div class="tab">
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <span class="accordion-item-header-title">Why not hire a full-time designer?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down accordion-item-header-icon">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </div>
+      <div class="accordion-item-description-wrapper">
+        <div class="accordion-item-description">
+          <hr>
+          <p class="no-caps">
+            It's expensive, time-consuming, and you're stuck with costs even when work is slow.
+            <br>
+            <br>
+            With us, for only $2495 a month, you work with top-tier talent and have the flexibility to pause or cancel anytime.
+            <br>
+            <br>
+            No request limits, and designs are completed in about 2 business days on average.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab">
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <span class="accordion-item-header-title">What happens after subscribing?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down accordion-item-header-icon">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </div>
+      <div class="accordion-item-description-wrapper">
+        <div class="accordion-item-description">
+          <hr>
+          <p class="no-caps">
+            After subscribing, you'll receive a welcome email with a guide on managing your subscription and crafting detailed design requests. 
+            <br>
+            <br>
+            Plus, you'll be invited to a private Slack channel where you'll meet your senior designer and design lead, allowing you to start making requests right away. No waiting time.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab">
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <span class="accordion-item-header-title">How do I manage my subscription?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down accordion-item-header-icon">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </div>
+      <div class="accordion-item-description-wrapper">
+        <div class="accordion-item-description">
+          <hr>
+          <p class="no-caps">
+            Managing your subscription is easy through Stripe, and pausing or canceling is hassle-free.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab">
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <span class="accordion-item-header-title">Why us?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down accordion-item-header-icon">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </div>
+      <div class="accordion-item-description-wrapper">
+        <div class="accordion-item-description">
+          <hr>
+          <p class="no-caps">
+            We're disruptors in the industry, dedicated to quality and pushing creative boundaries.
+            <br>
+            <br>
+            Founded by Tabs, we pride ourselves on delivering standout, bespoke designs with meticulous attention to detail.
+            <br>
+            <br>
+            No shortcuts, no outsourcing. Just exceptional design tailored to you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="tab">
+  <div class="accordion">
+    <div class="accordion-item">
+      <div class="accordion-item-header">
+        <span class="accordion-item-header-title">What software do you use?</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down accordion-item-header-icon">
+          <path d="m6 9 6 6 6-6" />
+        </svg>
+      </div>
+      <div class="accordion-item-description-wrapper">
+        <div class="accordion-item-description">
+          <hr>
+          <p class="no-caps">
+            We use Figma exclusively for all designs.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
