@@ -319,7 +319,7 @@ main {
 .blink {
   width: 10px;
   height: 10px;
-  background-color: orange;
+  background-color: rgb(101, 241, 0);
   border-radius: 100%;
   animation: blink 3s linear infinite;
 }
@@ -562,8 +562,15 @@ section {
 .accordion .accordion-item .accordion-item-header .accordion-item-header-title {
 }
 
+.accordion-item-header-title {
+  max-width: 90%;
+}
+
 .accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
   transition: var(--transition);
+}
+
+.accordion-item-header-icon {
 }
 
 .accordion
