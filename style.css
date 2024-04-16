@@ -174,9 +174,20 @@ body {
   padding: 20px;
 }
 
+.tab.centered {
+  aspect-ratio: 3/2;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .lottie {
   overflow: hidden;
   object-fit: cover;
+  height: 100px;
+}
+
+.lottie.big {
   height: 100px;
 }
 
