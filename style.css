@@ -184,6 +184,10 @@ body {
   text-align: center;
 }
 
+.feature.last {
+  margin-bottom: 20px;
+}
+
 .top-2 {
   display: flex;
   justify-content: space-between;
