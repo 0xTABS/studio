@@ -437,6 +437,12 @@ section {
   color: #fafafa;
 }
 
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .pill {
   display: flex;
   flex-direction: column;
@@ -445,7 +451,7 @@ section {
   justify-content: center;
   border: 1px solid lightgray;
   padding: 2px 8px;
-  border-radius: 2px;
+  border-radius: 100px;
   background-color: lightgray;
 }
 
