@@ -13,3 +13,9 @@ function checkTime(i) {
   if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
   return i;
 }
+
+document.querySelectorAll(".accordion-item").forEach((item) => {
+  item.querySelector(".accordion-item-header").addEventListener("click", () => {
+    item.classList.toggle("open");
+  });
+});

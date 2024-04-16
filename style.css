@@ -1,6 +1,9 @@
 :root {
   --white-90: rgba(255, 255, 255, 0.9);
   --black-40: #969696;
+  --transition: all 0.2s ease;
+  --border-color: #cccccc;
+  --background-color: #FAFAFA;
 }
 
 * {
@@ -507,4 +510,76 @@ section {
   to {
     transform: translate(calc(-100% - var(--gap)));
   }
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.accordion .accordion-item {
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+  border: none;
+  visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+  visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+  transition: var(--transition);
+}
+
+.accordion
+  .accordion-item.open
+  .accordion-item-header
+  .accordion-item-header-icon {
+  transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description {
+  min-height: 0;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description
+  p {
+  margin-top: 20px;
+}
+
+.accordion 
+  .accordion-item.open
+  .accordion-item-description-wrapper
+  .accordion-item-description
+  p {
 }
