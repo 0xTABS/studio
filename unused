@@ -820,3 +820,16 @@ FAQ
     </div>
   </div>
 </div>
+
+<div class="work-container">
+  <img src="media/rosholm-1.webp" alt="" class="work-img">
+  <p>Public banner oslo city</p>
+</div>
+<div class="work-container">
+  <img src="media/west-2.webp" alt="" class="work-img">
+  <p>Public banner oslo city</p>
+</div>
+<div class="work-container">
+  <img src="media/west-4.webp" alt="" class="work-img">
+  <p>Public banner oslo city</p>
+</div>

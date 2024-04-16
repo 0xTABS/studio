@@ -351,6 +351,27 @@ section {
 .work-section {
   border-radius: 0;
   padding: 4px;
+  display: flex;
+  gap: 4px;
+}
+
+.bullet-points {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bullet-point {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgb(0, 194, 0);
 }
 
 .work-container {
