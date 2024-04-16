@@ -19,3 +19,11 @@ document.querySelectorAll(".accordion-item").forEach((item) => {
     item.classList.toggle("open");
   });
 });
+
+const backToTopButton = document.querySelector("#back-to-top");
+
+backToTopButton.onclick = () =>
+  document.documentElement.scroll({
+    top: 0,
+    behavior: "smooth"
+  });
