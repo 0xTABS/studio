@@ -833,3 +833,24 @@ FAQ
   <img src="media/west-4.webp" alt="" class="work-img">
   <p>Public banner oslo city</p>
 </div>
+
+<div class="tab centered">
+  <div class="feature">
+    <div class="lottie">
+      <dotlottie-player src="https://lottie.host/4e91c422-d9f1-4fdf-9b0b-7a9c553e3fe9/BqMwXW1amB.json" background="#transparent" speed="1" style="width: 100; height: 100" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+    </div>
+    <p>Top-notch quality</p>
+  </div>
+  <div class="feature last">
+    <div class="lottie">
+      <dotlottie-player src="https://lottie.host/74d72632-8d15-4c5e-ac7d-644b3a3cfc3b/DA910oTLha.json" background="transparent" speed="1" style="width: 100; height: 100" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+    </div>
+    <p>Fixed monthly price</p>
+  </div>
+  <div class="feature">
+    <div class="lottie">
+      <dotlottie-player src="https://lottie.host/27c098b0-1e94-4703-b100-70014d21ccd6/LccjDFT7Z3.json" background="transparent" speed="1" style="width: 100; height: 100" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+    </div>
+    <p>For all founders around the world</p>
+  </div>
+</div>
