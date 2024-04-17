@@ -571,7 +571,7 @@ section {
   gap: var(--gap);
   align-items: center;
 
-  animation: scroll 30s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 @keyframes scroll {
