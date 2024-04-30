@@ -551,7 +551,7 @@ section {
   gap: var(--gap);
   align-items: center;
 
-  animation: scroll 50s linear infinite;
+  animation: scroll 100s linear infinite;
 }
 
 .carusel-2 {
